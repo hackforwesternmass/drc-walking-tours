@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #55075B;
+}
+
+a {
+    cursor:pointer;
+}
+
+#container {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 98%;
+    padding: 1%;
+}
+
+#mapcontainer {
+    position: relative;
+}
+
+#women{
+    width: 99%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#title {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;    
+    background-color: #55075B;
+    color: white;
+    padding: 1%;
+}
+
+#background-image {
+    display: block;
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 250px;
+}
+
+.leftfloat { 
+    float: left; 
+    margin-right: 7px; 
+    width: 30%; 
+}
+
+.leftfloatsm {
+    float: left; 
+    margin-right: 7px; 
+    width: 16%; 
+}
+
+.roundPhoto {
+    float: left;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.portrait {  
+    margin: auto;
+    border: 1px solid #55075B;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.portrait a {
+    text-decoration: none;
+    color: #55075B;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.portrait a:hover {
+    font-weight: bolder;        
+}
+
+.portraitRow {
+    margin-bottom: 3%;
+    clear: both;
+}
+
+h4 {
+    font-size: 1.1em;
+}  
+
+.popupBox {
+    padding: 5px;
+    max-width: 600px;
+    font-size: 1em;
+    display:none;
+}
+
+.pin {
+    position:absolute;
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+}
+
+#pin1 {
+    left: 39.9%;
+    top: 59.1%;
+}
+
+#pin2 {
+    left: 53%;
+    top: 54.5%;
+}
+
+#pin3 {
+    left: 70.4%;
+    top: 75.1%;
+}
+
+#pin4 {
+    left: 90.8%;
+    top: 85.8%;
+}
+
+#pin5 {
+    left: 89.8%;
+    top: 73.6%;
+}
+
+#pin6 {
+    left: 94.9%;
+    top: 59.5%;
+}
+
+#pin7 {
+    left: 54.3%;
+    top: 47.5%;
+}
+
+#pin8 {
+    left: 37.5%;
+    top: 36%;
+}
+
+#pin9 {
+    left: 47%;
+    top: 30%;
+}
+
+#pin10 {
+    left: 40.70%;
+    top: 11.11%;
+}
+
+#pin11 {
+    left: 25.50%;
+    top: 21.50%;
+}
+
+#pin12 {
+    left: 29%;
+    top: 47%;
+}  
+
+#pin13 {
+    left: 6.5%;
+    top: 21.4%;
+}
+
+#pin14 {
+    left: 12.7%;
+    top: 28.9%;
+}
+
+#pin15 {
+    left: 14.5%;
+    top: 36.8%;
+}   
+
+#pin16 {
+    left: 18%;
+    top: 42%;
+}
+
+#pin17 {
+    left: 20%;
+    top: 63.5%;
+}
+
+#pin18 {
+    left: 28%;
+    top: 61%;
+}
