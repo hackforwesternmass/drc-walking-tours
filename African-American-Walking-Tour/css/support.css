@@ -100,9 +100,7 @@ a {
     clear: both; 
     margin-top: 1%;
 }
-.drc-map.container {
-    padding:0;
-}
+
 .video-container {
     position:relative;
     padding-bottom: 36.25%;
@@ -159,12 +157,15 @@ h4 {
     font-size: 1.2em;
     display:none;
 }
-
+#container {
+    position: relative;
+}
 .pin {
     position:absolute;
     height: 2.7vw;
     width: 2.7vw;
     border-radius: 50%;
+    background-color: chartreuse;
 }
 
 #pin1 {
