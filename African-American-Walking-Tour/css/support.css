@@ -21,9 +21,6 @@ a {
     font-weight: 700;
     border: 0px;
 }
-#container{
-    position: relative;
-}
 #header {
     background-color: rgb(149, 168, 144);   
     font-weight: bold;         
@@ -103,7 +100,9 @@ a {
     clear: both; 
     margin-top: 1%;
 }
-
+.drc-map.container {
+    padding:0;
+}
 .video-container {
     position:relative;
     padding-bottom: 36.25%;
