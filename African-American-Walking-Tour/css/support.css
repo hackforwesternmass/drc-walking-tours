@@ -2,7 +2,6 @@ body {
     font-family: "Times New Roman", serif;
     background-color:white;
 }
-
 a {
     cursor:pointer;
     color: #651f1d;
@@ -33,6 +32,7 @@ a {
     margin-top: 20px;
     margin-left: 15px;
     font-size: 36px;
+    line-height: 40px;
 }
 #drc-subtitle {
     display: inline-block;
@@ -73,7 +73,7 @@ a {
 }
 #description {     
     color: black;
-    font-size: 1.2em;
+    font-size: 120%;
     padding: 20px 0px;
 }
 
