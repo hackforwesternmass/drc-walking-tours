@@ -2,15 +2,18 @@ body {
     font-family: "Times New Roman", serif;
     background-color:white;
 }
+
 a {
     cursor:pointer;
     color: #651f1d;
     text-decoration: underline;
 }
+
 #header a {
     color: #000;
     text-decoration: none;
 }
+
 .btn.btn-default, .btn-primary, a#donate {
     background: #651f1d;
     text-transform: uppercase;
@@ -20,6 +23,7 @@ a {
     font-weight: 700;
     border: 0px;
 }
+
 #header {
     background-color: rgb(149, 168, 144);   
     font-weight: bold;         
@@ -29,52 +33,71 @@ a {
 
 #drc {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-left: 15px;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 36px;
 }
+
 #drc-subtitle {
     display: inline-block;
     margin-top: 10px;
     margin-left: 15px;
     font-size: 24px;
 }
+
 #logo { 
     width: 60px;
     float: left;
 }
+
 #title {
     background-color: #4b798a;
     font-size: 24px;
     color: #000;
     padding: 10px 0px;
+    
 }
+
 #name {
     font-size: 36px;
 }
+
 .navbar {
     margin-bottom: 0;
 }
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
 }
+
 .navbar-default .navbar-collapse {
     margin-top: 20px;
     background-color: #e7e7e7;
 }
+
 .navbar-brand {
     height: auto;
     padding: 0;
 }
+
 .navbar-right {
     padding-right: 0;
 }
+
+.navbar-toggle {
+    dipslay: inline-block;
+}
+
 #description {     
-    color: black;
+    color: black;   
     font-size: 120%;
     padding: 20px 0px;
+}
+
+#printable-map {
+    display: none;
 }
 
 #background-image {
@@ -119,6 +142,28 @@ a {
     width: 100%;
 }
 
+@media (min-width: 450px) {
+    #printable-map {
+        display: block;
+    }
+
+}
+
+@media (max-width: 450px) {
+    #name {
+        font-size: 22px;
+    }
+    #title {
+        font-size: 18px;
+    }
+    #drc {
+        margin-left: 0;
+    }
+    #drc-subtitle {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 768px) {
     .video-container{
         width: 100%;
@@ -160,6 +205,7 @@ h4 {
 #container {
     position: relative;
 }
+
 .pin {
     position:absolute;
     height: 2.7vw;
