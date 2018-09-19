@@ -18,18 +18,29 @@
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                    <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="http://davidrugglescenter.org/">
-                        <img src="images/davidruggles.png" id="logo"/>
-                        <span id="drc">David Ruggles Center</span><br/>
-                        <span id="drc-subtitle">for History and Education</span>
-                    </a>
+                    </button> -->
+                        <a class="navbar-brand" href="http://davidrugglescenter.org/">
+                            <img src="images/davidruggles.png" id="logo"/>
+
+                            <!-- html for hamburger menu placed here so that Ruggles portrait and menu render on same line in mobile view -->            
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <span id="drc">David Ruggles Center</span><br/>
+                            <span id="drc-subtitle">for History and Education</span>
+                        </a>
                     </div>
+
+                    
                 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
@@ -59,8 +70,10 @@
         </div>
         <div class="col-sm-3 well well-sm">
             <p>Please <b>click on the numbers below</b> to start the tour.</p>
-            <p>Or download a printable map:</p>
-            <a class="btn btn-default" href="http://box5587.temp.domains/~davidrug/wp-content/uploads/2018/04/african-american-trail-smaller1.pdf">Printable Map</a>
+            <div id="printable-map">
+                <p>Or download a printable map:</p>
+                <a class="btn btn-default" href="http://box5587.temp.domains/~davidrug/wp-content/uploads/2018/04/african-american-trail-smaller1.pdf">Printable Map</a>
+            </div>
         </div>
     </div>
 
